@@ -2,9 +2,9 @@ apiVersion: operators.coreos.com/v1alpha2
 kind: OperatorGroup
 metadata:
   name: ibm-cp4a-operator-group
-  namespace: cp4ba
+  namespace: odm
   annotations:
     argocd.argoproj.io/sync-wave: "110"
 spec:
   targetNamespaces:
-  - cp4ba
+  - odm
