@@ -1,0 +1,12 @@
+apiVersion: console.openshift.io/v1
+kind: ConsoleNotification
+metadata:
+  name: manual-deployed
+spec:
+  backgroundColor: orange
+  color: Black
+  link:
+    href: 'https://cpd-odm.apps.ual-mvp.united.activation-assets.com/zen/#/homepage'
+    text: CP4BA/ODM CloudPak Dashboard
+  location: BannerBottom
+  text: Click here to visit
