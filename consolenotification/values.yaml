@@ -10,3 +10,6 @@ ocp-console-notification:
   location: BannerTop
   ## The text that should be displayed in the banner. This value is required for the banner to be created
   text: "Custom Cluster description"
+  link:
+    href: "www.example.com"
+    text: "example"
